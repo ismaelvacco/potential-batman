@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # clone the git repository with my personal configs
+rm -rf ~/.potential-batman
 git clone git@github.com:ismaelvacco/potential-batman.git ~/.potential-batman
 
 # git config
