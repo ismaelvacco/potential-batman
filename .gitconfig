@@ -1,3 +1,36 @@
 [user]
 	email = isma.vacco@gmail.com
 	name = Ismael Vacco
+
+[github]
+        user = ismaelvacco
+
+[core]
+        pager = less -FRS
+        editor = vim -f
+
+[color]
+        ui = auto
+
+[color "status"]
+        added = green
+        changed = yellow
+        untracked = red
+
+[color "diff"]
+        meta = yellow
+        frag = magenta
+        old = red
+        new = green
+
+[push]
+        # Push only actual branch
+        default = current
+
+[rerere]
+        # use user conflicts
+        enabled = true
+
+[alias]
+        # beautiful logs
+        lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
